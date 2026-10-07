@@ -5,3 +5,9 @@ def test_invalid1():
 
 def test_equilateral():
     assert triangle(3, 3, 3) == 1
+
+def test_isoceles():
+    assert triangle(2, 2, 3) == 2
+
+def test_nothing():
+    assert triangle(1, 2, 3) == 4
